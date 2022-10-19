@@ -1,5 +1,5 @@
 {
-    "baseUrl": "https://raw.githubusercontent.com/andeplane/atomify-main",
+    "baseUrl": "https://raw.githubusercontent.com/andeplane/atomify-main/main",
     "examples": [
         {
             "id": "diffusion",
