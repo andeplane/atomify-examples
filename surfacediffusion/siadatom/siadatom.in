@@ -1,0 +1,50 @@
+#/atom 1 5.0 #F0C8A0
+#/camera position 4.9 146.2 53.3
+#/camera target 54.1 10.2 53.2
+# bulk Si via Stillinger-Weber
+variable p equal 0.35
+variable T equal 1400
+
+variable nSteps equal 300e6
+units metal
+atom_style atomic
+boundary p f p
+
+lattice diamond 5.431
+region box block 0 20 0 2 0 20
+create_box 1 box
+create_atoms 1 box
+
+pair_style sw
+pair_coeff * * Si.sw Si
+mass 1 28.06
+
+neigh_modify delay 0 every 1 check yes
+
+timestep 0.003
+
+region upper block EDGE EDGE 1.7 EDGE EDGE EDGE
+variable rnd atom random(0,1,1234)
+variable do_delete atom v_rnd>v_p
+group delete_threshold variable do_delete
+group upper region upper
+group delete intersect upper delete_threshold
+delete_atoms group delete compress yes
+
+region lower block EDGE EDGE EDGE 0.3 EDGE EDGE
+group lower region lower
+group moving subtract all lower
+
+change_box all y delta -30 30
+
+fix nvt moving nvt temp $T $T 1.0
+fix momentum moving momentum 10 linear 1 1 1
+
+velocity moving create 2000.0 2376847 loop geom mom yes rot yes
+fix xwalls all wall/reflect ylo EDGE yhi EDGE
+
+compute moving_temp moving temp
+thermo_style custom step time c_moving_temp ke pe etotal press spcpu cpuremain
+thermo 1000
+
+run ${nSteps}
