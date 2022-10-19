@@ -6,7 +6,7 @@
             "title": "Diffusion",
             "description": "This example shows how you can measure the diffusion coefficient using the mean square displacement. The white atoms have mass 1 while the red atoms have mass 4. This results in the red atoms having diffusion coefficient half the value of the white ones.",
             "analysisDescription": "# About this simulation\nWe simulate two Lennard Jones particle types with masses 1.0 and 4.0. The diffusion coefficient [https://en.wikipedia.org/wiki/Mass_diffusivity](scales like) D$\\propto 1/\\sqrt{m}$, so we should see a factor 2 higher diffusion coefficient for the small molecules.",
-            "imageUrl": "examples/diffusion/diffusion/simple_diffusion.png",
+            "imageUrl": "diffusion/diffusion/simple_diffusion.png",
             "inputScript": "simple_diffusion.in",
             "keywords": [
                 "lennard jones",
@@ -15,7 +15,7 @@
             "files": [
                 {
                     "fileName": "simple_diffusion.in",
-                    "url": "examples/diffusion/diffusion/simple_diffusion.in"
+                    "url": "diffusion/diffusion/simple_diffusion.in"
                 }
             ]
         },
@@ -23,7 +23,7 @@
             "id": "proteinfolding",
             "title": "Protein folding",
             "description": "During this short simulation the protein evolves from an unfolded initial conformation to a misfolded conformation. It can take a very long time.",
-            "imageUrl": "examples/moltemplate/frustrated/frustrated.png",
+            "imageUrl": "moltemplate/frustrated/frustrated.png",
             "inputScript": "run_short_sim.in.nvt",
             "keywords": [
                 "protein folding",
@@ -32,23 +32,23 @@
             "files": [
                 {
                     "fileName": "table_dihedral_frustrated.dat",
-                    "url": "examples/moltemplate/frustrated/table_dihedral_frustrated.dat"
+                    "url": "moltemplate/frustrated/table_dihedral_frustrated.dat"
                 },
                 {
                     "fileName": "system.in.init",
-                    "url": "examples/moltemplate/frustrated/system.in.init"
+                    "url": "moltemplate/frustrated/system.in.init"
                 },
                 {
                     "fileName": "system.in.settings",
-                    "url": "examples/moltemplate/frustrated/system.in.settings"
+                    "url": "moltemplate/frustrated/system.in.settings"
                 },
                 {
                     "fileName": "system.data",
-                    "url": "examples/moltemplate/frustrated/system.data"
+                    "url": "moltemplate/frustrated/system.data"
                 },
                 {
                     "fileName": "run_short_sim.in.nvt",
-                    "url": "examples/moltemplate/frustrated/run_short_sim.in.nvt"
+                    "url": "moltemplate/frustrated/run_short_sim.in.nvt"
                 }
             ]
         },
@@ -56,7 +56,7 @@
             "id": "2D-lj-fluid",
             "title": "2D Lennard Jones fluid",
             "description": "This simulation consists a binary 2D gas of LJ particles.",
-            "imageUrl": "examples/simongravelle/liquids/2D-lj-fluid/2D-lj-fluid.png",
+            "imageUrl": "simongravelle/liquids/2D-lj-fluid/2D-lj-fluid.png",
             "inputScript": "2D-lj-fluid.in",
             "keywords": [
                 "lennard jones",
@@ -68,7 +68,7 @@
             "files": [
                 {
                     "fileName": "2D-lj-fluid.in",
-                    "url": "examples/simongravelle/liquids/2D-lj-fluid/2D-lj-fluid.in"
+                    "url": "simongravelle/liquids/2D-lj-fluid/2D-lj-fluid.in"
                 }
             ]
         },
@@ -76,7 +76,7 @@
             "id": "3D-lj-fluid",
             "title": "3D Lennard Jones fluid",
             "description": "This simulation consists a binary 3D gas of LJ particles.",
-            "imageUrl": "examples/simongravelle/liquids/3D-lj-fluid/3D-lj-fluid.png",
+            "imageUrl": "simongravelle/liquids/3D-lj-fluid/3D-lj-fluid.png",
             "inputScript": "3D-lj-fluid.in",
             "keywords": [
                 "lennard jones",
@@ -87,7 +87,7 @@
             "files": [
                 {
                     "fileName": "3D-lj-fluid.in",
-                    "url": "examples/simongravelle/liquids/3D-lj-fluid/3D-lj-fluid.in"
+                    "url": "simongravelle/liquids/3D-lj-fluid/3D-lj-fluid.in"
                 }
             ]
         },
@@ -95,7 +95,7 @@
             "id": "generate_nanoporous",
             "title": "Generate nanoporous silica",
             "description": "Generate a nanoporous silica structure from betacristobalite using the vashishta potential.",
-            "imageUrl": "examples/silica/generate_nanoporous/generate_nanoporous.png",
+            "imageUrl": "silica/generate_nanoporous/generate_nanoporous.png",
             "inputScript": "generate_nanoporous.in",
             "keywords": [
                 "vashishta",
@@ -106,15 +106,15 @@
             "files": [
                 {
                     "fileName": "SiO2.vashishta",
-                    "url": "examples/silica/generate_nanoporous/SiO2.vashishta"
+                    "url": "silica/generate_nanoporous/SiO2.vashishta"
                 },
                 {
                     "fileName": "generate_nanoporous.in",
-                    "url": "examples/silica/generate_nanoporous/generate_nanoporous.in"
+                    "url": "silica/generate_nanoporous/generate_nanoporous.in"
                 },
                 {
                     "fileName": "betacristobalite.data",
-                    "url": "examples/silica/generate_nanoporous/betacristobalite.data"
+                    "url": "silica/generate_nanoporous/betacristobalite.data"
                 }
             ]
         },
@@ -122,7 +122,7 @@
             "id": "reax_cho",
             "title": "Hydrocarbon oxcidation",
             "description": "Hydrocarbons (such as pentane) will at high temperatures react with oxygen and form water, CO, CO2, HO2 and OH. After around 3000 timesteps, we see some interesting reactions forming new molecules.",
-            "imageUrl": "examples/reaxff/CHO/CHO.png",
+            "imageUrl": "reaxff/CHO/CHO.png",
             "inputScript": "CHO.in",
             "keywords": [
                 "reaxff",
@@ -133,23 +133,23 @@
             "files": [
                 {
                     "fileName": "lmp_control",
-                    "url": "examples/reaxff/CHO/lmp_control"
+                    "url": "reaxff/CHO/lmp_control"
                 },
                 {
                     "fileName": "CHO.in",
-                    "url": "examples/reaxff/CHO/CHO.in"
+                    "url": "reaxff/CHO/CHO.in"
                 },
                 {
                     "fileName": "ffield.reax.cho",
-                    "url": "examples/reaxff/CHO/ffield.reax.cho"
+                    "url": "reaxff/CHO/ffield.reax.cho"
                 },
                 {
                     "fileName": "data.CHO",
-                    "url": "examples/reaxff/CHO/data.CHO"
+                    "url": "reaxff/CHO/data.CHO"
                 },
                 {
                     "fileName": "param.qeq",
-                    "url": "examples/reaxff/CHO/param.qeq"
+                    "url": "reaxff/CHO/param.qeq"
                 }
             ]
         },
@@ -157,7 +157,7 @@
             "id": "sic_nanoparticle",
             "title": "SiC nanoparticle",
             "description": "A silicon carbide (SiC) nano particle in a carbon gas. The whole system is neutral, but initially, the particle has net charge. In this simulation, you can observe how the carbon gas attaches to the surface. The system cools down from 2200 K to 500 K.",
-            "imageUrl": "examples/sic/nanoparticle/nanoparticle.png",
+            "imageUrl": "sic/nanoparticle/nanoparticle.png",
             "inputScript": "nanoparticle.in",
             "keywords": [
                 "vashishta",
@@ -167,19 +167,19 @@
             "files": [
                 {
                     "fileName": "nanoparticle.in",
-                    "url": "examples/sic/nanoparticle/nanoparticle.in"
+                    "url": "sic/nanoparticle/nanoparticle.in"
                 },
                 {
                     "fileName": "make_stoichiometric.in",
-                    "url": "examples/sic/nanoparticle/make_stoichiometric.in"
+                    "url": "sic/nanoparticle/make_stoichiometric.in"
                 },
                 {
                     "fileName": "SiC.vashishta",
-                    "url": "examples/sic/nanoparticle/SiC.vashishta"
+                    "url": "sic/nanoparticle/SiC.vashishta"
                 },
                 {
                     "fileName": "siliconcarbide.data",
-                    "url": "examples/sic/nanoparticle/siliconcarbide.data"
+                    "url": "sic/nanoparticle/siliconcarbide.data"
                 }
             ]
         },
@@ -187,7 +187,7 @@
             "id": "sic_faceted_nanoparticle",
             "title": "Faceted SiC nanoparticle",
             "description": "A faceted SiC nano particle. All facets are of the same type (110 planes), but due a nucleation barrier during a volume conserving shape change (see Mullins, Rohrer 2000) two of the surfaces are prevented from reaching equilibrium.",
-            "imageUrl": "examples/sic/faceted_nanoparticle/faceted_nanoparticle.png",
+            "imageUrl": "sic/faceted_nanoparticle/faceted_nanoparticle.png",
             "inputScript": "faceted_nanoparticle.in",
             "keywords": [
                 "vashishta",
@@ -197,15 +197,15 @@
             "files": [
                 {
                     "fileName": "faceted_nanoparticle.in",
-                    "url": "examples/sic/faceted_nanoparticle/faceted_nanoparticle.in"
+                    "url": "sic/faceted_nanoparticle/faceted_nanoparticle.in"
                 },
                 {
                     "fileName": "SiC.vashishta",
-                    "url": "examples/sic/faceted_nanoparticle/SiC.vashishta"
+                    "url": "sic/faceted_nanoparticle/SiC.vashishta"
                 },
                 {
                     "fileName": "sic_nanoparticle.data",
-                    "url": "examples/sic/faceted_nanoparticle/sic_nanoparticle.data"
+                    "url": "sic/faceted_nanoparticle/sic_nanoparticle.data"
                 }
             ]
         },
@@ -213,7 +213,7 @@
             "id": "singlewater",
             "title": "Single water molecule",
             "description": "A single water molecule using the vashishta potential.",
-            "imageUrl": "examples/water/singlewater/singlewater.png",
+            "imageUrl": "water/singlewater/singlewater.png",
             "inputScript": "singlewater.in",
             "keywords": [
                 "vashishta",
@@ -222,15 +222,15 @@
             "files": [
                 {
                     "fileName": "singlewater.data",
-                    "url": "examples/water/singlewater/singlewater.data"
+                    "url": "water/singlewater/singlewater.data"
                 },
                 {
                     "fileName": "singlewater.in",
-                    "url": "examples/water/singlewater/singlewater.in"
+                    "url": "water/singlewater/singlewater.in"
                 },
                 {
                     "fileName": "H2O.vashishta",
-                    "url": "examples/water/singlewater/H2O.vashishta"
+                    "url": "water/singlewater/H2O.vashishta"
                 }
             ]
         },
@@ -238,7 +238,7 @@
             "id": "watervapor",
             "title": "Water vapor",
             "description": "Low density water gas using the vashishta potential.",
-            "imageUrl": "examples/water/vapor/vapor.png",
+            "imageUrl": "water/vapor/vapor.png",
             "inputScript": "vapor.in",
             "keywords": [
                 "vashishta",
@@ -247,15 +247,15 @@
             "files": [
                 {
                     "fileName": "vapor.data",
-                    "url": "examples/water/vapor/vapor.data"
+                    "url": "water/vapor/vapor.data"
                 },
                 {
                     "fileName": "vapor.in",
-                    "url": "examples/water/vapor/vapor.in"
+                    "url": "water/vapor/vapor.in"
                 },
                 {
                     "fileName": "H2O.vashishta",
-                    "url": "examples/water/vapor/H2O.vashishta"
+                    "url": "water/vapor/H2O.vashishta"
                 }
             ]
         },
@@ -263,7 +263,7 @@
             "id": "granular_patterns",
             "title": "Pattern formation in granular materials",
             "description": "When particles (like sand, but really any particle) lie on a vibrating surface, there are various patterns that suddenly appear for certain values for the frequency and amplitude. In this simulation, you will see one such pattern. It might take some time, so be patient.",
-            "imageUrl": "examples/granular/patterns/patterns.png",
+            "imageUrl": "granular/patterns/patterns.png",
             "inputScript": "patterns.in",
             "keywords": [
                 "granular"
@@ -271,7 +271,7 @@
             "files": [
                 {
                     "fileName": "patterns.in",
-                    "url": "examples/granular/patterns/patterns.in"
+                    "url": "granular/patterns/patterns.in"
                 }
             ]
         },
@@ -279,7 +279,7 @@
             "id": "amorphous_carbon",
             "title": "Amorphous carbon liquid quench",
             "description": "The simulation consists of carbon atoms, initially in the liquid state (high temperature). The temperature of the system is decreased progressively until hexagonal rings form. It results in an amorphous nanoporous structure of carbon. Warning: heavy and long simulation.",
-            "imageUrl": "examples/simongravelle/solids/amorphous-carbon/amorphous-carbon.jpeg",
+            "imageUrl": "simongravelle/solids/amorphous-carbon/amorphous-carbon.jpeg",
             "inputScript": "amorphous-carbon.in",
             "keywords": [
                 "airebo",
@@ -292,11 +292,11 @@
             "files": [
                 {
                     "fileName": "amorphous-carbon.in",
-                    "url": "examples/simongravelle/solids/amorphous-carbon/amorphous-carbon.in"
+                    "url": "simongravelle/solids/amorphous-carbon/amorphous-carbon.in"
                 },
                 {
                     "fileName": "CH.airebo",
-                    "url": "examples/simongravelle/solids/shared/CH.airebo"
+                    "url": "simongravelle/solids/shared/CH.airebo"
                 }
             ]
         },
@@ -304,7 +304,7 @@
             "id": "go-nanoparticle",
             "title": "Graphene Oxcide nanoparticle",
             "description": "The simulation consists of a single graphene oxide particle with a few water molecules. The initial GO nanoparticle has been generated using [make graphitics].",
-            "imageUrl": "examples/simongravelle/solids/GO-nanoparticle/GO-nanoparticle.png",
+            "imageUrl": "simongravelle/solids/GO-nanoparticle/GO-nanoparticle.png",
             "inputScript": "GO-nanoparticle.in",
             "keywords": [
                 "airebo",
@@ -317,15 +317,15 @@
             "files": [
                 {
                     "fileName": "GO-nanoparticle.in",
-                    "url": "examples/simongravelle/solids/GO-nanoparticle/GO-nanoparticle.in"
+                    "url": "simongravelle/solids/GO-nanoparticle/GO-nanoparticle.in"
                 },
                 {
                     "fileName": "GO-nanoparticle.data",
-                    "url": "examples/simongravelle/solids/GO-nanoparticle/GO-nanoparticle.data"
+                    "url": "simongravelle/solids/GO-nanoparticle/GO-nanoparticle.data"
                 },
                 {
                     "fileName": "PARM.lammps",
-                    "url": "examples/simongravelle/solids/GO-nanoparticle/PARM.lammps"
+                    "url": "simongravelle/solids/GO-nanoparticle/PARM.lammps"
                 }
             ]
         },
@@ -333,7 +333,7 @@
             "id": "cnt_deformation",
             "title": "Carbon nanotube under deformation",
             "description": "The simulation consists of a single carbon nanotube (CNT) in vacuum. At the beginning of the simulation, a few atoms are removed from the CNT. The CNT is divided into three parts: the central part and the two edges. The two edges are forced to move, which leads to the gradual elongation of the CNT. Eventually, the CNT breaks. The breaking of the chemical bonds is permitted by the use of a reactive force field (AIREBO).",
-            "imageUrl": "examples/simongravelle/solids/cnt-under-deformation/cnt-under-deformation.png",
+            "imageUrl": "simongravelle/solids/cnt-under-deformation/cnt-under-deformation.png",
             "inputScript": "cnt-under-deformation.in",
             "keywords": [
                 "airebo",
@@ -347,15 +347,15 @@
             "files": [
                 {
                     "fileName": "cnt-under-deformation.data",
-                    "url": "examples/simongravelle/solids/cnt-under-deformation/cnt-under-deformation.data"
+                    "url": "simongravelle/solids/cnt-under-deformation/cnt-under-deformation.data"
                 },
                 {
                     "fileName": "cnt-under-deformation.in",
-                    "url": "examples/simongravelle/solids/cnt-under-deformation/cnt-under-deformation.in"
+                    "url": "simongravelle/solids/cnt-under-deformation/cnt-under-deformation.in"
                 },
                 {
                     "fileName": "CH.airebo",
-                    "url": "examples/simongravelle/solids/shared/CH.airebo"
+                    "url": "simongravelle/solids/shared/CH.airebo"
                 }
             ]
         },
@@ -363,7 +363,7 @@
             "id": "nacl-solution",
             "title": "NaCl solution",
             "description": "The simulation consists of a bulk solution of NaCl in water.",
-            "imageUrl": "examples/simongravelle/liquids/nacl-solution/nacl-solution.png",
+            "imageUrl": "simongravelle/liquids/nacl-solution/nacl-solution.png",
             "inputScript": "nacl-solution.in",
             "keywords": [
                 "lennard jones",
@@ -376,15 +376,15 @@
             "files": [
                 {
                     "fileName": "nacl-solution.in",
-                    "url": "examples/simongravelle/liquids/nacl-solution/nacl-solution.in"
+                    "url": "simongravelle/liquids/nacl-solution/nacl-solution.in"
                 },
                 {
                     "fileName": "nacl-solution.data",
-                    "url": "examples/simongravelle/liquids/nacl-solution/nacl-solution.data"
+                    "url": "simongravelle/liquids/nacl-solution/nacl-solution.data"
                 },
                 {
                     "fileName": "PARM.lammps",
-                    "url": "examples/simongravelle/liquids/nacl-solution/PARM.lammps"
+                    "url": "simongravelle/liquids/nacl-solution/PARM.lammps"
                 }
             ]
         },
@@ -392,7 +392,7 @@
             "id": "salt-dissolution-water",
             "title": "Salt dissolution",
             "description": "The simulation consists of a cluster of NaCl in water in the NPT ensemble, at a temperature of 360 K and pressure of 1 atm.",
-            "imageUrl": "examples/simongravelle/liquids/salt-dissolution-water/salt-dissolution-water.png",
+            "imageUrl": "simongravelle/liquids/salt-dissolution-water/salt-dissolution-water.png",
             "inputScript": "salt-dissolution-water.in",
             "keywords": [
                 "lennard jones",
@@ -405,15 +405,15 @@
             "files": [
                 {
                     "fileName": "salt-dissolution-water.in",
-                    "url": "examples/simongravelle/liquids/salt-dissolution-water/salt-dissolution-water.in"
+                    "url": "simongravelle/liquids/salt-dissolution-water/salt-dissolution-water.in"
                 },
                 {
                     "fileName": "salt-dissolution-water.data",
-                    "url": "examples/simongravelle/liquids/salt-dissolution-water/salt-dissolution-water.data"
+                    "url": "simongravelle/liquids/salt-dissolution-water/salt-dissolution-water.data"
                 },
                 {
                     "fileName": "PARM.lammps",
-                    "url": "examples/simongravelle/liquids/salt-dissolution-water/PARM.lammps"
+                    "url": "simongravelle/liquids/salt-dissolution-water/PARM.lammps"
                 }
             ]
         },
@@ -421,7 +421,7 @@
             "id": "reversibly-adsorbing-particles",
             "title": "Adsorption combined with diffusion create pink noise in nanopore",
             "description": "The simulation consists of particles diffusing inside a cylindrical nanopore. The surface of the nanopore is covered with adsorbing sites, and the particles reversibly adsorb at the inner surface of the nanopore. The adsorption/desorption processes are modelled using bond/create and bond/break commands respectively. A bond forms if a particle comes close enough to a trap. An additional harmonic potential is added to trapped particles. The wall of the cylinder is modelled using the wall/region command.",
-            "imageUrl": "examples/simongravelle/interfaces/reversibly-adsorbing-particles/reversibly-adsorbing-particles.png",
+            "imageUrl": "simongravelle/interfaces/reversibly-adsorbing-particles/reversibly-adsorbing-particles.png",
             "inputScript": "reversibly-adsorbing-particles.in",
             "keywords": [
                 "lennard jones",
@@ -434,19 +434,19 @@
             "files": [
                 {
                     "fileName": "reversibly-adsorbing-particles.in",
-                    "url": "examples/simongravelle/interfaces/reversibly-adsorbing-particles/reversibly-adsorbing-particles.in"
+                    "url": "simongravelle/interfaces/reversibly-adsorbing-particles/reversibly-adsorbing-particles.in"
                 },
                 {
                     "fileName": "reversibly-adsorbing-particles.data",
-                    "url": "examples/simongravelle/interfaces/reversibly-adsorbing-particles/reversibly-adsorbing-particles.data"
+                    "url": "simongravelle/interfaces/reversibly-adsorbing-particles/reversibly-adsorbing-particles.data"
                 },
                 {
                     "fileName": "bonds.in",
-                    "url": "examples/simongravelle/interfaces/reversibly-adsorbing-particles/bonds.in"
+                    "url": "simongravelle/interfaces/reversibly-adsorbing-particles/bonds.in"
                 },
                 {
                     "fileName": "groups.in",
-                    "url": "examples/simongravelle/interfaces/reversibly-adsorbing-particles/groups.in"
+                    "url": "simongravelle/interfaces/reversibly-adsorbing-particles/groups.in"
                 }
             ]
         },
@@ -454,7 +454,7 @@
             "id": "betacristobalite",
             "title": "Silica beta cristobalite",
             "description": "Beta cristobalite crystal using the vashishta potential.",
-            "imageUrl": "examples/silica/betacristobalite/betacristobalite.png",
+            "imageUrl": "silica/betacristobalite/betacristobalite.png",
             "inputScript": "betacristobalite.in",
             "keywords": [
                 "vashishta",
@@ -464,15 +464,15 @@
             "files": [
                 {
                     "fileName": "betacristobalite.in",
-                    "url": "examples/silica/betacristobalite/betacristobalite.in"
+                    "url": "silica/betacristobalite/betacristobalite.in"
                 },
                 {
                     "fileName": "SiO2.vashishta",
-                    "url": "examples/silica/betacristobalite/SiO2.vashishta"
+                    "url": "silica/betacristobalite/SiO2.vashishta"
                 },
                 {
                     "fileName": "betacristobalite.data",
-                    "url": "examples/silica/betacristobalite/betacristobalite.data"
+                    "url": "silica/betacristobalite/betacristobalite.data"
                 }
             ]
         },
@@ -480,7 +480,7 @@
             "id": "zeolite_zsm5",
             "title": "Zeolite ZSM-5",
             "description": "Zeolite ZSM-5 using the vashishta potential.",
-            "imageUrl": "examples/silica/zeolite_zsm5/zeolite_zsm5.png",
+            "imageUrl": "silica/zeolite_zsm5/zeolite_zsm5.png",
             "inputScript": "zeolite_zsm5.in",
             "keywords": [
                 "vashishta",
@@ -489,15 +489,15 @@
             "files": [
                 {
                     "fileName": "zeolite_zsm5.in",
-                    "url": "examples/silica/zeolite_zsm5/zeolite_zsm5.in"
+                    "url": "silica/zeolite_zsm5/zeolite_zsm5.in"
                 },
                 {
                     "fileName": "zeolite_zsm5.data",
-                    "url": "examples/silica/zeolite_zsm5/zeolite_zsm5.data"
+                    "url": "silica/zeolite_zsm5/zeolite_zsm5.data"
                 },
                 {
                     "fileName": "SiO2.vashishta",
-                    "url": "examples/silica/zeolite_zsm5/SiO2.vashishta"
+                    "url": "silica/zeolite_zsm5/SiO2.vashishta"
                 }
             ]
         },
@@ -505,7 +505,7 @@
             "id": "nanoporous_sio2",
             "title": "Nanoporous silica",
             "description": "",
-            "imageUrl": "examples/silica/nanoporous_sio2/nanoporous_sio2.png",
+            "imageUrl": "silica/nanoporous_sio2/nanoporous_sio2.png",
             "inputScript": "nanoporous_sio2.in",
             "keywords": [
                 "vashishta",
@@ -516,15 +516,15 @@
             "files": [
                 {
                     "fileName": "SiO2.vashishta",
-                    "url": "examples/silica/nanoporous_sio2/SiO2.vashishta"
+                    "url": "silica/nanoporous_sio2/SiO2.vashishta"
                 },
                 {
                     "fileName": "nanoporous_sio2.in",
-                    "url": "examples/silica/nanoporous_sio2/nanoporous_sio2.in"
+                    "url": "silica/nanoporous_sio2/nanoporous_sio2.in"
                 },
                 {
                     "fileName": "nanoporous_sio2.data",
-                    "url": "examples/silica/nanoporous_sio2/nanoporous_sio2.data"
+                    "url": "silica/nanoporous_sio2/nanoporous_sio2.data"
                 }
             ]
         },
@@ -532,7 +532,7 @@
             "id": "crack",
             "title": "Crack 2D",
             "description": "Crack propagation in a 2d solid.",
-            "imageUrl": "examples/lammps/crack/crack.png",
+            "imageUrl": "lammps/crack/crack.png",
             "inputScript": "crack.in",
             "keywords": [
                 "lennard jones",
@@ -542,7 +542,7 @@
             "files": [
                 {
                     "fileName": "crack.in",
-                    "url": "examples/lammps/crack/crack.in"
+                    "url": "lammps/crack/crack.in"
                 }
             ]
         },
@@ -550,7 +550,7 @@
             "id": "flow_couette",
             "title": "Couette flow 2D",
             "description": "Couette flow in a 2d channel.",
-            "imageUrl": "examples/lammps/flow_couette/flow_couette.png",
+            "imageUrl": "lammps/flow_couette/flow_couette.png",
             "inputScript": "flow_couette.in",
             "keywords": [
                 "lennard jones",
@@ -560,7 +560,7 @@
             "files": [
                 {
                     "fileName": "flow_couette.in",
-                    "url": "examples/lammps/flow_couette/flow_couette.in"
+                    "url": "lammps/flow_couette/flow_couette.in"
                 }
             ]
         },
@@ -568,7 +568,7 @@
             "id": "flow_poiseuille",
             "title": "Poiseuille flow 2D",
             "description": "Poiseuille flow in a 2d channel.",
-            "imageUrl": "examples/lammps/flow_pois/flow_pois.png",
+            "imageUrl": "lammps/flow_pois/flow_pois.png",
             "inputScript": "flow_pois.in",
             "keywords": [
                 "lennard jones",
@@ -578,7 +578,7 @@
             "files": [
                 {
                     "fileName": "flow_pois.in",
-                    "url": "examples/lammps/flow_pois/flow_pois.in"
+                    "url": "lammps/flow_pois/flow_pois.in"
                 }
             ]
         },
@@ -586,7 +586,7 @@
             "id": "friction",
             "title": "Friction 2D",
             "description": "Frictional contact of spherical asperities between 2d surfaces.",
-            "imageUrl": "examples/lammps/friction/friction.png",
+            "imageUrl": "lammps/friction/friction.png",
             "inputScript": "friction.in",
             "keywords": [
                 "lennard jones",
@@ -596,7 +596,7 @@
             "files": [
                 {
                     "fileName": "friction.in",
-                    "url": "examples/lammps/friction/friction.in"
+                    "url": "lammps/friction/friction.in"
                 }
             ]
         },
@@ -604,7 +604,7 @@
             "id": "cmap",
             "title": "CMAP 5-body",
             "description": "CMAP 5-body contributions to CHARMM force field.",
-            "imageUrl": "examples/lammps/cmap/cmap.png",
+            "imageUrl": "lammps/cmap/cmap.png",
             "inputScript": "in.cmap",
             "keywords": [
                 "charmm"
@@ -612,15 +612,15 @@
             "files": [
                 {
                     "fileName": "gagg.data",
-                    "url": "examples/lammps/cmap/gagg.data"
+                    "url": "lammps/cmap/gagg.data"
                 },
                 {
                     "fileName": "in.cmap",
-                    "url": "examples/lammps/cmap/in.cmap"
+                    "url": "lammps/cmap/in.cmap"
                 },
                 {
                     "fileName": "charmm22.cmap",
-                    "url": "examples/lammps/cmap/charmm22.cmap"
+                    "url": "lammps/cmap/charmm22.cmap"
                 }
             ]
         },
@@ -628,7 +628,7 @@
             "id": "deposit_atom",
             "title": "Deposit atoms",
             "description": "Deposition of atoms onto a 3d substrate.",
-            "imageUrl": "examples/lammps/deposit_atom/deposit.png",
+            "imageUrl": "lammps/deposit_atom/deposit.png",
             "inputScript": "in.deposit.atom",
             "keywords": [
                 "lennard jones",
@@ -637,7 +637,7 @@
             "files": [
                 {
                     "fileName": "in.deposit.atom",
-                    "url": "examples/lammps/deposit_atom/in.deposit.atom"
+                    "url": "lammps/deposit_atom/in.deposit.atom"
                 }
             ]
         },
@@ -645,7 +645,7 @@
             "id": "deposit_molecule",
             "title": "Deposit molecules",
             "description": "Deposition of molecules onto a 3d substrate.",
-            "imageUrl": "examples/lammps/deposit_molecule/deposit_molecule.png",
+            "imageUrl": "lammps/deposit_molecule/deposit_molecule.png",
             "inputScript": "in.deposit.molecule",
             "keywords": [
                 "lennard jones",
@@ -655,11 +655,11 @@
             "files": [
                 {
                     "fileName": "in.deposit.molecule",
-                    "url": "examples/lammps/deposit_molecule/in.deposit.molecule"
+                    "url": "lammps/deposit_molecule/in.deposit.molecule"
                 },
                 {
                     "fileName": "molecule.dimer",
-                    "url": "examples/lammps/deposit_molecule/molecule.dimer"
+                    "url": "lammps/deposit_molecule/molecule.dimer"
                 }
             ]
         },
@@ -667,7 +667,7 @@
             "id": "micelle",
             "title": "Micelle",
             "description": "Self-assembly of small lipid-like molecules into 2d bilayers.",
-            "imageUrl": "examples/lammps/micelle/micelle.png",
+            "imageUrl": "lammps/micelle/micelle.png",
             "inputScript": "in.micelle",
             "keywords": [
                 "micelle"
@@ -675,15 +675,15 @@
             "files": [
                 {
                     "fileName": "data.micelle",
-                    "url": "examples/lammps/micelle/data.micelle"
+                    "url": "lammps/micelle/data.micelle"
                 },
                 {
                     "fileName": "def.micelle",
-                    "url": "examples/lammps/micelle/def.micelle"
+                    "url": "lammps/micelle/def.micelle"
                 },
                 {
                     "fileName": "in.micelle",
-                    "url": "examples/lammps/micelle/in.micelle"
+                    "url": "lammps/micelle/in.micelle"
                 }
             ]
         },
@@ -691,7 +691,7 @@
             "id": "obstacle",
             "title": "2d obstacle",
             "description": "Flow around two voids in a 2d channel.",
-            "imageUrl": "examples/lammps/obstacle/obstacle.png",
+            "imageUrl": "lammps/obstacle/obstacle.png",
             "inputScript": "in.obstacle",
             "keywords": [
                 "lennard jones",
@@ -701,7 +701,7 @@
             "files": [
                 {
                     "fileName": "in.obstacle",
-                    "url": "examples/lammps/obstacle/in.obstacle"
+                    "url": "lammps/obstacle/in.obstacle"
                 }
             ]
         },
@@ -709,7 +709,7 @@
             "id": "peptide",
             "title": "Peptide solvation",
             "description": "Dynamics of a small solvated peptide chain (5-mer).",
-            "imageUrl": "examples/lammps/peptide/peptide.png",
+            "imageUrl": "lammps/peptide/peptide.png",
             "inputScript": "in.peptide",
             "keywords": [
                 "peptide"
@@ -717,11 +717,11 @@
             "files": [
                 {
                     "fileName": "in.peptide",
-                    "url": "examples/lammps/peptide/in.peptide"
+                    "url": "lammps/peptide/in.peptide"
                 },
                 {
                     "fileName": "data.peptide",
-                    "url": "examples/lammps/peptide/data.peptide"
+                    "url": "lammps/peptide/data.peptide"
                 }
             ]
         },
@@ -729,7 +729,7 @@
             "id": "pour_2d",
             "title": "2d pour.",
             "description": "Pouring of granular molecules into a 2d box, then chute flow.",
-            "imageUrl": "examples/lammps/pour_2d/pour_2d.png",
+            "imageUrl": "lammps/pour_2d/pour_2d.png",
             "inputScript": "in.pour.2d",
             "keywords": [
                 "granular",
@@ -739,7 +739,7 @@
             "files": [
                 {
                     "fileName": "in.pour.2d",
-                    "url": "examples/lammps/pour_2d/in.pour.2d"
+                    "url": "lammps/pour_2d/in.pour.2d"
                 }
             ]
         },
@@ -747,7 +747,7 @@
             "id": "pour_2d_molecule",
             "title": "2d molecule pour",
             "description": "Pouring of granular molecules into a 2d box, then chute flow.",
-            "imageUrl": "examples/lammps/pour_2d_molecule/pour_2d_molecule.png",
+            "imageUrl": "lammps/pour_2d_molecule/pour_2d_molecule.png",
             "inputScript": "in.pour.2d.molecule",
             "keywords": [
                 "granular",
@@ -757,11 +757,11 @@
             "files": [
                 {
                     "fileName": "in.pour.2d.molecule",
-                    "url": "examples/lammps/pour_2d_molecule/in.pour.2d.molecule"
+                    "url": "lammps/pour_2d_molecule/in.pour.2d.molecule"
                 },
                 {
                     "fileName": "molecule.vshape",
-                    "url": "examples/lammps/pour_2d_molecule/molecule.vshape"
+                    "url": "lammps/pour_2d_molecule/molecule.vshape"
                 }
             ]
         },
@@ -769,7 +769,7 @@
             "id": "pour_3d",
             "title": "3d pour",
             "description": "Pouring of granular particles into a 3d box, then chute flow.",
-            "imageUrl": "examples/lammps/pour_3d/pour.png",
+            "imageUrl": "lammps/pour_3d/pour.png",
             "inputScript": "in.pour",
             "keywords": [
                 "granular",
@@ -778,7 +778,7 @@
             "files": [
                 {
                     "fileName": "in.pour",
-                    "url": "examples/lammps/pour_3d/in.pour"
+                    "url": "lammps/pour_3d/in.pour"
                 }
             ]
         },
@@ -786,7 +786,7 @@
             "id": "shear",
             "title": "Shear",
             "description": "sideways shear applied to 2d solid.",
-            "imageUrl": "examples/lammps/shear/shear.png",
+            "imageUrl": "lammps/shear/shear.png",
             "inputScript": "in.shear",
             "keywords": [
                 "lennard jones",
@@ -796,11 +796,11 @@
             "files": [
                 {
                     "fileName": "Ni_u3.eam",
-                    "url": "examples/lammps/shear/Ni_u3.eam"
+                    "url": "lammps/shear/Ni_u3.eam"
                 },
                 {
                     "fileName": "in.shear",
-                    "url": "examples/lammps/shear/in.shear"
+                    "url": "lammps/shear/in.shear"
                 }
             ]
         },
@@ -808,7 +808,7 @@
             "id": "shear_void",
             "title": "Shear with void",
             "description": "Sideways shear applied to 2d solid with a void.",
-            "imageUrl": "examples/lammps/shear_void/shear_void.png",
+            "imageUrl": "lammps/shear_void/shear_void.png",
             "inputScript": "in.shear.void",
             "keywords": [
                 "lennard jones",
@@ -818,11 +818,11 @@
             "files": [
                 {
                     "fileName": "in.shear.void",
-                    "url": "examples/lammps/shear_void/in.shear.void"
+                    "url": "lammps/shear_void/in.shear.void"
                 },
                 {
                     "fileName": "Ni_u3.eam",
-                    "url": "examples/lammps/shear_void/Ni_u3.eam"
+                    "url": "lammps/shear_void/Ni_u3.eam"
                 }
             ]
         },
@@ -830,7 +830,7 @@
             "id": "abstract_translocation",
             "title": "Polymer through hole",
             "description": "This example contains a (crude and somewhat simple) example of the translocation of a (rather short) polymer through a hole in a wall, surrounded by an explicit LJ solvent.",
-            "imageUrl": "examples/moltemplate/abstract_translocation/abstract_translocation.png",
+            "imageUrl": "moltemplate/abstract_translocation/abstract_translocation.png",
             "inputScript": "run.in.npt",
             "keywords": [
                 "polymer"
@@ -838,27 +838,27 @@
             "files": [
                 {
                     "fileName": "run.in.npt",
-                    "url": "examples/moltemplate/abstract_translocation/run.in.npt"
+                    "url": "moltemplate/abstract_translocation/run.in.npt"
                 },
                 {
                     "fileName": "system.in",
-                    "url": "examples/moltemplate/abstract_translocation/system.in"
+                    "url": "moltemplate/abstract_translocation/system.in"
                 },
                 {
                     "fileName": "system.in.init",
-                    "url": "examples/moltemplate/abstract_translocation/system.in.init"
+                    "url": "moltemplate/abstract_translocation/system.in.init"
                 },
                 {
                     "fileName": "system.in.settings",
-                    "url": "examples/moltemplate/abstract_translocation/system.in.settings"
+                    "url": "moltemplate/abstract_translocation/system.in.settings"
                 },
                 {
                     "fileName": "run.in.nvt",
-                    "url": "examples/moltemplate/abstract_translocation/run.in.nvt"
+                    "url": "moltemplate/abstract_translocation/run.in.nvt"
                 },
                 {
                     "fileName": "system.data",
-                    "url": "examples/moltemplate/abstract_translocation/system.data"
+                    "url": "moltemplate/abstract_translocation/system.data"
                 }
             ]
         },
@@ -866,7 +866,7 @@
             "id": "alkane_chain_single",
             "title": "Alkane chain",
             "description": "This example is a simple simulation of a long alkane chain, in a vacuum at room temperature using the OPLSAA force field.",
-            "imageUrl": "examples/moltemplate/alkane_chain_single/alkane_chain_2.png",
+            "imageUrl": "moltemplate/alkane_chain_single/alkane_chain_2.png",
             "inputScript": "run.in.nvt",
             "keywords": [
                 "alkane"
@@ -874,35 +874,35 @@
             "files": [
                 {
                     "fileName": "system_after_min.data",
-                    "url": "examples/moltemplate/alkane_chain_single/system_after_min.data"
+                    "url": "moltemplate/alkane_chain_single/system_after_min.data"
                 },
                 {
                     "fileName": "system.in",
-                    "url": "examples/moltemplate/alkane_chain_single/system.in"
+                    "url": "moltemplate/alkane_chain_single/system.in"
                 },
                 {
                     "fileName": "system.in.init",
-                    "url": "examples/moltemplate/alkane_chain_single/system.in.init"
+                    "url": "moltemplate/alkane_chain_single/system.in.init"
                 },
                 {
                     "fileName": "run.in.min",
-                    "url": "examples/moltemplate/alkane_chain_single/run.in.min"
+                    "url": "moltemplate/alkane_chain_single/run.in.min"
                 },
                 {
                     "fileName": "system.in.settings",
-                    "url": "examples/moltemplate/alkane_chain_single/system.in.settings"
+                    "url": "moltemplate/alkane_chain_single/system.in.settings"
                 },
                 {
                     "fileName": "run.in.nvt",
-                    "url": "examples/moltemplate/alkane_chain_single/run.in.nvt"
+                    "url": "moltemplate/alkane_chain_single/run.in.nvt"
                 },
                 {
                     "fileName": "system.data",
-                    "url": "examples/moltemplate/alkane_chain_single/system.data"
+                    "url": "moltemplate/alkane_chain_single/system.data"
                 },
                 {
                     "fileName": "system.in.charges",
-                    "url": "examples/moltemplate/alkane_chain_single/system.in.charges"
+                    "url": "moltemplate/alkane_chain_single/system.in.charges"
                 }
             ]
         },
@@ -910,7 +910,7 @@
             "id": "benzene",
             "title": "Benzene",
             "description": "This example shows how to build a box of benzene molecules using the AMBER/GAFF force-field.",
-            "imageUrl": "examples/moltemplate/benzene/benzene.png",
+            "imageUrl": "moltemplate/benzene/benzene.png",
             "inputScript": "run.in.npt",
             "keywords": [
                 "amber",
@@ -919,27 +919,27 @@
             "files": [
                 {
                     "fileName": "run.in.npt",
-                    "url": "examples/moltemplate/benzene/run.in.npt"
+                    "url": "moltemplate/benzene/run.in.npt"
                 },
                 {
                     "fileName": "system.in",
-                    "url": "examples/moltemplate/benzene/system.in"
+                    "url": "moltemplate/benzene/system.in"
                 },
                 {
                     "fileName": "system.in.init",
-                    "url": "examples/moltemplate/benzene/system.in.init"
+                    "url": "moltemplate/benzene/system.in.init"
                 },
                 {
                     "fileName": "system.in.settings",
-                    "url": "examples/moltemplate/benzene/system.in.settings"
+                    "url": "moltemplate/benzene/system.in.settings"
                 },
                 {
                     "fileName": "run.in.nvt",
-                    "url": "examples/moltemplate/benzene/run.in.nvt"
+                    "url": "moltemplate/benzene/run.in.nvt"
                 },
                 {
                     "fileName": "system.data",
-                    "url": "examples/moltemplate/benzene/system.data"
+                    "url": "moltemplate/benzene/system.data"
                 }
             ]
         },
@@ -947,7 +947,7 @@
             "id": "benzene",
             "title": "Metaphase chromatin",
             "description": "This is an implementation of the \"two-stage\" model used by Maxim Imakaev in the Naumova et Al 2013 Science paper on metaphase chromatin.",
-            "imageUrl": "examples/moltemplate/chromosome_metaphase_Naumova2013/chromosome_metaphase_naumova2013.png",
+            "imageUrl": "moltemplate/chromosome_metaphase_Naumova2013/chromosome_metaphase_naumova2013.png",
             "inputScript": "run.in.stage1",
             "keywords": [
                 "benzene"
@@ -955,43 +955,43 @@
             "files": [
                 {
                     "fileName": "system_after_min.data",
-                    "url": "examples/moltemplate/chromosome_metaphase_Naumova2013/system_after_min.data"
+                    "url": "moltemplate/chromosome_metaphase_Naumova2013/system_after_min.data"
                 },
                 {
                     "fileName": "system_after_stage1.data",
-                    "url": "examples/moltemplate/chromosome_metaphase_Naumova2013/system_after_stage1.data"
+                    "url": "moltemplate/chromosome_metaphase_Naumova2013/system_after_stage1.data"
                 },
                 {
                     "fileName": "run.in.stage2",
-                    "url": "examples/moltemplate/chromosome_metaphase_Naumova2013/run.in.stage2"
+                    "url": "moltemplate/chromosome_metaphase_Naumova2013/run.in.stage2"
                 },
                 {
                     "fileName": "system.in",
-                    "url": "examples/moltemplate/chromosome_metaphase_Naumova2013/system.in"
+                    "url": "moltemplate/chromosome_metaphase_Naumova2013/system.in"
                 },
                 {
                     "fileName": "system.in.init",
-                    "url": "examples/moltemplate/chromosome_metaphase_Naumova2013/system.in.init"
+                    "url": "moltemplate/chromosome_metaphase_Naumova2013/system.in.init"
                 },
                 {
                     "fileName": "run.in.min",
-                    "url": "examples/moltemplate/chromosome_metaphase_Naumova2013/run.in.min"
+                    "url": "moltemplate/chromosome_metaphase_Naumova2013/run.in.min"
                 },
                 {
                     "fileName": "system.in.settings",
-                    "url": "examples/moltemplate/chromosome_metaphase_Naumova2013/system.in.settings"
+                    "url": "moltemplate/chromosome_metaphase_Naumova2013/system.in.settings"
                 },
                 {
                     "fileName": "table_bonds_stage2.dat",
-                    "url": "examples/moltemplate/chromosome_metaphase_Naumova2013/table_bonds_stage2.dat"
+                    "url": "moltemplate/chromosome_metaphase_Naumova2013/table_bonds_stage2.dat"
                 },
                 {
                     "fileName": "run.in.stage1",
-                    "url": "examples/moltemplate/chromosome_metaphase_Naumova2013/run.in.stage1"
+                    "url": "moltemplate/chromosome_metaphase_Naumova2013/run.in.stage1"
                 },
                 {
                     "fileName": "system.data",
-                    "url": "examples/moltemplate/chromosome_metaphase_Naumova2013/system.data"
+                    "url": "moltemplate/chromosome_metaphase_Naumova2013/system.data"
                 }
             ]
         },
@@ -999,7 +999,7 @@
             "id": "ethylene_benzene",
             "title": "Ethylene and benzene",
             "description": "This example shows how to simulate a mixture of ethylene and benzene using the AMBER/GAFF force field.",
-            "imageUrl": "examples/moltemplate/ethylene+benzene/ethylene+benzene.png",
+            "imageUrl": "moltemplate/ethylene+benzene/ethylene+benzene.png",
             "inputScript": "run.in.npt",
             "keywords": [
                 "amber",
@@ -1009,27 +1009,27 @@
             "files": [
                 {
                     "fileName": "run.in.npt",
-                    "url": "examples/moltemplate/ethylene+benzene/run.in.npt"
+                    "url": "moltemplate/ethylene+benzene/run.in.npt"
                 },
                 {
                     "fileName": "system.in",
-                    "url": "examples/moltemplate/ethylene+benzene/system.in"
+                    "url": "moltemplate/ethylene+benzene/system.in"
                 },
                 {
                     "fileName": "system.in.init",
-                    "url": "examples/moltemplate/ethylene+benzene/system.in.init"
+                    "url": "moltemplate/ethylene+benzene/system.in.init"
                 },
                 {
                     "fileName": "system.in.settings",
-                    "url": "examples/moltemplate/ethylene+benzene/system.in.settings"
+                    "url": "moltemplate/ethylene+benzene/system.in.settings"
                 },
                 {
                     "fileName": "run.in.nvt",
-                    "url": "examples/moltemplate/ethylene+benzene/run.in.nvt"
+                    "url": "moltemplate/ethylene+benzene/run.in.nvt"
                 },
                 {
                     "fileName": "system.data",
-                    "url": "examples/moltemplate/ethylene+benzene/system.data"
+                    "url": "moltemplate/ethylene+benzene/system.data"
                 }
             ]
         },
@@ -1037,7 +1037,7 @@
             "id": "ice_crystal",
             "title": "Ice crystal",
             "description": "A simulation of an ice crystal using SPCE water and the shake algorithm.",
-            "imageUrl": "examples/moltemplate/ice_crystal/ice_crystal.png",
+            "imageUrl": "moltemplate/ice_crystal/ice_crystal.png",
             "inputScript": "run.in.npt",
             "keywords": [
                 "spce",
@@ -1048,31 +1048,31 @@
             "files": [
                 {
                     "fileName": "run.in.npt",
-                    "url": "examples/moltemplate/ice_crystal/run.in.npt"
+                    "url": "moltemplate/ice_crystal/run.in.npt"
                 },
                 {
                     "fileName": "system.in",
-                    "url": "examples/moltemplate/ice_crystal/system.in"
+                    "url": "moltemplate/ice_crystal/system.in"
                 },
                 {
                     "fileName": "system_after_npt.data",
-                    "url": "examples/moltemplate/ice_crystal/system_after_npt.data"
+                    "url": "moltemplate/ice_crystal/system_after_npt.data"
                 },
                 {
                     "fileName": "system.in.init",
-                    "url": "examples/moltemplate/ice_crystal/system.in.init"
+                    "url": "moltemplate/ice_crystal/system.in.init"
                 },
                 {
                     "fileName": "system.in.settings",
-                    "url": "examples/moltemplate/ice_crystal/system.in.settings"
+                    "url": "moltemplate/ice_crystal/system.in.settings"
                 },
                 {
                     "fileName": "run.in.nvt",
-                    "url": "examples/moltemplate/ice_crystal/run.in.nvt"
+                    "url": "moltemplate/ice_crystal/run.in.nvt"
                 },
                 {
                     "fileName": "system.data",
-                    "url": "examples/moltemplate/ice_crystal/system.data"
+                    "url": "moltemplate/ice_crystal/system.data"
                 }
             ]
         },
@@ -1080,7 +1080,7 @@
             "id": "methane",
             "title": "Methane",
             "description": "This example demonstrates how to build a simulation containing a box of methane.",
-            "imageUrl": "examples/moltemplate/methane/methane.png",
+            "imageUrl": "moltemplate/methane/methane.png",
             "inputScript": "run.in.npt",
             "keywords": [
                 "methane"
@@ -1088,35 +1088,35 @@
             "files": [
                 {
                     "fileName": "run.in.npt",
-                    "url": "examples/moltemplate/methane/run.in.npt"
+                    "url": "moltemplate/methane/run.in.npt"
                 },
                 {
                     "fileName": "system_after_min.data",
-                    "url": "examples/moltemplate/methane/system_after_min.data"
+                    "url": "moltemplate/methane/system_after_min.data"
                 },
                 {
                     "fileName": "system.in",
-                    "url": "examples/moltemplate/methane/system.in"
+                    "url": "moltemplate/methane/system.in"
                 },
                 {
                     "fileName": "system.in.init",
-                    "url": "examples/moltemplate/methane/system.in.init"
+                    "url": "moltemplate/methane/system.in.init"
                 },
                 {
                     "fileName": "system.in.settings",
-                    "url": "examples/moltemplate/methane/system.in.settings"
+                    "url": "moltemplate/methane/system.in.settings"
                 },
                 {
                     "fileName": "run.in.nvt",
-                    "url": "examples/moltemplate/methane/run.in.nvt"
+                    "url": "moltemplate/methane/run.in.nvt"
                 },
                 {
                     "fileName": "system.data",
-                    "url": "examples/moltemplate/methane/system.data"
+                    "url": "moltemplate/methane/system.data"
                 },
                 {
                     "fileName": "system.in.charges",
-                    "url": "examples/moltemplate/methane/system.in.charges"
+                    "url": "moltemplate/methane/system.in.charges"
                 }
             ]
         },
@@ -1124,7 +1124,7 @@
             "id": "nanotube_water",
             "title": "Water in nanotube",
             "description": "This is a small version of a carbon-nanotube, water capillary system.",
-            "imageUrl": "examples/moltemplate/nanotube+water/nanotube+water.png",
+            "imageUrl": "moltemplate/nanotube+water/nanotube+water.png",
             "inputScript": "run.in.npt",
             "keywords": [
                 "water",
@@ -1134,23 +1134,23 @@
             "files": [
                 {
                     "fileName": "run.in.npt",
-                    "url": "examples/moltemplate/nanotube+water/run.in.npt"
+                    "url": "moltemplate/nanotube+water/run.in.npt"
                 },
                 {
                     "fileName": "system.in",
-                    "url": "examples/moltemplate/nanotube+water/system.in"
+                    "url": "moltemplate/nanotube+water/system.in"
                 },
                 {
                     "fileName": "system.in.init",
-                    "url": "examples/moltemplate/nanotube+water/system.in.init"
+                    "url": "moltemplate/nanotube+water/system.in.init"
                 },
                 {
                     "fileName": "system.in.settings",
-                    "url": "examples/moltemplate/nanotube+water/system.in.settings"
+                    "url": "moltemplate/nanotube+water/system.in.settings"
                 },
                 {
                     "fileName": "system.data",
-                    "url": "examples/moltemplate/nanotube+water/system.data"
+                    "url": "moltemplate/nanotube+water/system.data"
                 }
             ]
         },
@@ -1158,7 +1158,7 @@
             "id": "water_methane",
             "title": "Methane in water",
             "description": "This example contains a mixture of SPCE water and methane. The methane molecules use OPLSAA force-field.",
-            "imageUrl": "examples/moltemplate/waterSPCE+methane/waterSPCE+methane.png",
+            "imageUrl": "moltemplate/waterSPCE+methane/waterSPCE+methane.png",
             "inputScript": "run.in.npt",
             "keywords": [
                 "spce",
@@ -1168,35 +1168,35 @@
             "files": [
                 {
                     "fileName": "run.in.npt",
-                    "url": "examples/moltemplate/waterSPCE+methane/run.in.npt"
+                    "url": "moltemplate/waterSPCE+methane/run.in.npt"
                 },
                 {
                     "fileName": "system_after_min.data",
-                    "url": "examples/moltemplate/waterSPCE+methane/system_after_min.data"
+                    "url": "moltemplate/waterSPCE+methane/system_after_min.data"
                 },
                 {
                     "fileName": "system.in",
-                    "url": "examples/moltemplate/waterSPCE+methane/system.in"
+                    "url": "moltemplate/waterSPCE+methane/system.in"
                 },
                 {
                     "fileName": "system.in.init",
-                    "url": "examples/moltemplate/waterSPCE+methane/system.in.init"
+                    "url": "moltemplate/waterSPCE+methane/system.in.init"
                 },
                 {
                     "fileName": "system.in.settings",
-                    "url": "examples/moltemplate/waterSPCE+methane/system.in.settings"
+                    "url": "moltemplate/waterSPCE+methane/system.in.settings"
                 },
                 {
                     "fileName": "run.in.nvt",
-                    "url": "examples/moltemplate/waterSPCE+methane/run.in.nvt"
+                    "url": "moltemplate/waterSPCE+methane/run.in.nvt"
                 },
                 {
                     "fileName": "system.data",
-                    "url": "examples/moltemplate/waterSPCE+methane/system.data"
+                    "url": "moltemplate/waterSPCE+methane/system.data"
                 },
                 {
                     "fileName": "system.in.charges",
-                    "url": "examples/moltemplate/waterSPCE+methane/system.in.charges"
+                    "url": "moltemplate/waterSPCE+methane/system.in.charges"
                 }
             ]
         },
@@ -1204,7 +1204,7 @@
             "id": "water_nacl",
             "title": "Salt water",
             "description": "This example contains a mixture of SPCE water and salt (NaCl).",
-            "imageUrl": "examples/moltemplate/waterSPCE+Na+Cl/waterSPCE+NA+CL.png",
+            "imageUrl": "moltemplate/waterSPCE+Na+Cl/waterSPCE+NA+CL.png",
             "inputScript": "run.in.npt",
             "keywords": [
                 "spce",
@@ -1214,27 +1214,27 @@
             "files": [
                 {
                     "fileName": "run.in.npt",
-                    "url": "examples/moltemplate/waterSPCE+Na+Cl/run.in.npt"
+                    "url": "moltemplate/waterSPCE+Na+Cl/run.in.npt"
                 },
                 {
                     "fileName": "system.in",
-                    "url": "examples/moltemplate/waterSPCE+Na+Cl/system.in"
+                    "url": "moltemplate/waterSPCE+Na+Cl/system.in"
                 },
                 {
                     "fileName": "system.in.init",
-                    "url": "examples/moltemplate/waterSPCE+Na+Cl/system.in.init"
+                    "url": "moltemplate/waterSPCE+Na+Cl/system.in.init"
                 },
                 {
                     "fileName": "system.in.settings",
-                    "url": "examples/moltemplate/waterSPCE+Na+Cl/system.in.settings"
+                    "url": "moltemplate/waterSPCE+Na+Cl/system.in.settings"
                 },
                 {
                     "fileName": "run.in.nvt",
-                    "url": "examples/moltemplate/waterSPCE+Na+Cl/run.in.nvt"
+                    "url": "moltemplate/waterSPCE+Na+Cl/run.in.nvt"
                 },
                 {
                     "fileName": "system.data",
-                    "url": "examples/moltemplate/waterSPCE+Na+Cl/system.data"
+                    "url": "moltemplate/waterSPCE+Na+Cl/system.data"
                 }
             ]
         },
@@ -1242,7 +1242,7 @@
             "id": "water_isobutane",
             "title": "TIP3P water and isobutane",
             "description": "The simulation consists of a mixture of isobutane and water. Over time (less than 1 ns), the two molecules phase-separate.",
-            "imageUrl": "examples/moltemplate/waterTIP3P+isobutane/waterTIP3P+isobutane.png",
+            "imageUrl": "moltemplate/waterTIP3P+isobutane/waterTIP3P+isobutane.png",
             "inputScript": "run.in.npt",
             "keywords": [
                 "tip3p",
@@ -1252,27 +1252,27 @@
             "files": [
                 {
                     "fileName": "run.in.npt",
-                    "url": "examples/moltemplate/waterTIP3P+isobutane/run.in.npt"
+                    "url": "moltemplate/waterTIP3P+isobutane/run.in.npt"
                 },
                 {
                     "fileName": "system.in",
-                    "url": "examples/moltemplate/waterTIP3P+isobutane/system.in"
+                    "url": "moltemplate/waterTIP3P+isobutane/system.in"
                 },
                 {
                     "fileName": "system.in.init",
-                    "url": "examples/moltemplate/waterTIP3P+isobutane/system.in.init"
+                    "url": "moltemplate/waterTIP3P+isobutane/system.in.init"
                 },
                 {
                     "fileName": "system.in.settings",
-                    "url": "examples/moltemplate/waterTIP3P+isobutane/system.in.settings"
+                    "url": "moltemplate/waterTIP3P+isobutane/system.in.settings"
                 },
                 {
                     "fileName": "run.in.nvt",
-                    "url": "examples/moltemplate/waterTIP3P+isobutane/run.in.nvt"
+                    "url": "moltemplate/waterTIP3P+isobutane/run.in.nvt"
                 },
                 {
                     "fileName": "system.data",
-                    "url": "examples/moltemplate/waterTIP3P+isobutane/system.data"
+                    "url": "moltemplate/waterTIP3P+isobutane/system.data"
                 }
             ]
         },
@@ -1280,7 +1280,7 @@
             "id": "reax_ab",
             "title": "Ammonia-Borine (AB)",
             "description": "Combustion of Ammonia-Borine (AB) can be simulated with ReaxFF. Two AB molecules meet and a H<sub>2</sub> molecule is formed.",
-            "imageUrl": "examples/reaxff/AB/AB.png",
+            "imageUrl": "reaxff/AB/AB.png",
             "inputScript": "AB.in",
             "keywords": [
                 "reaxff",
@@ -1290,23 +1290,23 @@
             "files": [
                 {
                     "fileName": "lmp_control",
-                    "url": "examples/reaxff/AB/lmp_control"
+                    "url": "reaxff/AB/lmp_control"
                 },
                 {
                     "fileName": "ffield.reax.AB",
-                    "url": "examples/reaxff/AB/ffield.reax.AB"
+                    "url": "reaxff/AB/ffield.reax.AB"
                 },
                 {
                     "fileName": "AB.in",
-                    "url": "examples/reaxff/AB/AB.in"
+                    "url": "reaxff/AB/AB.in"
                 },
                 {
                     "fileName": "data.AB",
-                    "url": "examples/reaxff/AB/data.AB"
+                    "url": "reaxff/AB/data.AB"
                 },
                 {
                     "fileName": "param.qeq",
-                    "url": "examples/reaxff/AB/param.qeq"
+                    "url": "reaxff/AB/param.qeq"
                 }
             ]
         },
@@ -1314,7 +1314,7 @@
             "id": "reax_feoh3",
             "title": "Iron(III) hydroxide",
             "description": "In this simulation, we see low density Iron(III) hydroxide (Fe(OH)3) at high temperature.",
-            "imageUrl": "examples/reaxff/FeOH3/FeOH3.png",
+            "imageUrl": "reaxff/FeOH3/FeOH3.png",
             "inputScript": "FeOH3.in",
             "keywords": [
                 "reaxff",
@@ -1323,23 +1323,23 @@
             "files": [
                 {
                     "fileName": "data.FeOH3",
-                    "url": "examples/reaxff/FeOH3/data.FeOH3"
+                    "url": "reaxff/FeOH3/data.FeOH3"
                 },
                 {
                     "fileName": "lmp_control",
-                    "url": "examples/reaxff/FeOH3/lmp_control"
+                    "url": "reaxff/FeOH3/lmp_control"
                 },
                 {
                     "fileName": "ffield.reax.Fe_O_C_H",
-                    "url": "examples/reaxff/FeOH3/ffield.reax.Fe_O_C_H"
+                    "url": "reaxff/FeOH3/ffield.reax.Fe_O_C_H"
                 },
                 {
                     "fileName": "FeOH3.in",
-                    "url": "examples/reaxff/FeOH3/FeOH3.in"
+                    "url": "reaxff/FeOH3/FeOH3.in"
                 },
                 {
                     "fileName": "param.qeq",
-                    "url": "examples/reaxff/FeOH3/param.qeq"
+                    "url": "reaxff/FeOH3/param.qeq"
                 }
             ]
         },
@@ -1347,7 +1347,7 @@
             "id": "reax_rdf",
             "title": "RDX explosive",
             "description": "RDX is an organic compound normally used as an explosive, especially in world war II.",
-            "imageUrl": "examples/reaxff/RDX/RDX.png",
+            "imageUrl": "reaxff/RDX/RDX.png",
             "inputScript": "RDX.in",
             "keywords": [
                 "reaxff",
@@ -1356,23 +1356,23 @@
             "files": [
                 {
                     "fileName": "lmp_control",
-                    "url": "examples/reaxff/RDX/lmp_control"
+                    "url": "reaxff/RDX/lmp_control"
                 },
                 {
                     "fileName": "RDX.in",
-                    "url": "examples/reaxff/RDX/RDX.in"
+                    "url": "reaxff/RDX/RDX.in"
                 },
                 {
                     "fileName": "data.RDX",
-                    "url": "examples/reaxff/RDX/data.RDX"
+                    "url": "reaxff/RDX/data.RDX"
                 },
                 {
                     "fileName": "ffield.reax.rdx",
-                    "url": "examples/reaxff/RDX/ffield.reax.rdx"
+                    "url": "reaxff/RDX/ffield.reax.rdx"
                 },
                 {
                     "fileName": "param.qeq",
-                    "url": "examples/reaxff/RDX/param.qeq"
+                    "url": "reaxff/RDX/param.qeq"
                 }
             ]
         },
@@ -1380,7 +1380,7 @@
             "id": "reax_ssz13",
             "title": "Zeolite SSZ-13",
             "description": "This structure is a zeolite called SSZ-13 (or CHA) and has one of the silicon sites replaced with Aluminum and a hydrogen atom.",
-            "imageUrl": "examples/reaxff/ssz_13/ssz_13.png",
+            "imageUrl": "reaxff/ssz_13/ssz_13.png",
             "inputScript": "ssz_13.in",
             "keywords": [
                 "reaxff",
@@ -1389,15 +1389,15 @@
             "files": [
                 {
                     "fileName": "ffield_Psofogiannakis_CuOH_2015",
-                    "url": "examples/reaxff/ssz_13/ffield_Psofogiannakis_CuOH_2015"
+                    "url": "reaxff/ssz_13/ffield_Psofogiannakis_CuOH_2015"
                 },
                 {
                     "fileName": "ssz_13.in",
-                    "url": "examples/reaxff/ssz_13/ssz_13.in"
+                    "url": "reaxff/ssz_13/ssz_13.in"
                 },
                 {
                     "fileName": "CHA_wAl.data",
-                    "url": "examples/reaxff/ssz_13/CHA_wAl.data"
+                    "url": "reaxff/ssz_13/CHA_wAl.data"
                 }
             ]
         },
@@ -1405,7 +1405,7 @@
             "id": "reax_voh",
             "title": "Vanadium Oxide",
             "description": "In this simulation, we see vanadium oxide being simulated using ReaxFF at high temperature.",
-            "imageUrl": "examples/reaxff/VOH/VOH.png",
+            "imageUrl": "reaxff/VOH/VOH.png",
             "inputScript": "VOH.in",
             "keywords": [
                 "reaxff",
@@ -1414,23 +1414,23 @@
             "files": [
                 {
                     "fileName": "lmp_control",
-                    "url": "examples/reaxff/VOH/lmp_control"
+                    "url": "reaxff/VOH/lmp_control"
                 },
                 {
                     "fileName": "ffield.reax.V_O_C_H",
-                    "url": "examples/reaxff/VOH/ffield.reax.V_O_C_H"
+                    "url": "reaxff/VOH/ffield.reax.V_O_C_H"
                 },
                 {
                     "fileName": "data.VOH",
-                    "url": "examples/reaxff/VOH/data.VOH"
+                    "url": "reaxff/VOH/data.VOH"
                 },
                 {
                     "fileName": "VOH.in",
-                    "url": "examples/reaxff/VOH/VOH.in"
+                    "url": "reaxff/VOH/VOH.in"
                 },
                 {
                     "fileName": "param.qeq",
-                    "url": "examples/reaxff/VOH/param.qeq"
+                    "url": "reaxff/VOH/param.qeq"
                 }
             ]
         },
@@ -1438,7 +1438,7 @@
             "id": "reax_znoh2",
             "title": "Zn(OH)2",
             "description": "In this simulation, we see Zn(OH)2 at high temperature.",
-            "imageUrl": "examples/reaxff/ZnOH2/ZnOH2.png",
+            "imageUrl": "reaxff/ZnOH2/ZnOH2.png",
             "inputScript": "ZnOH2.in",
             "keywords": [
                 "reaxff"
@@ -1446,23 +1446,23 @@
             "files": [
                 {
                     "fileName": "ZnOH2.in",
-                    "url": "examples/reaxff/ZnOH2/ZnOH2.in"
+                    "url": "reaxff/ZnOH2/ZnOH2.in"
                 },
                 {
                     "fileName": "lmp_control",
-                    "url": "examples/reaxff/ZnOH2/lmp_control"
+                    "url": "reaxff/ZnOH2/lmp_control"
                 },
                 {
                     "fileName": "data.ZnOH2",
-                    "url": "examples/reaxff/ZnOH2/data.ZnOH2"
+                    "url": "reaxff/ZnOH2/data.ZnOH2"
                 },
                 {
                     "fileName": "ffield.reax.ZnOH",
-                    "url": "examples/reaxff/ZnOH2/ffield.reax.ZnOH"
+                    "url": "reaxff/ZnOH2/ffield.reax.ZnOH"
                 },
                 {
                     "fileName": "param.qeq",
-                    "url": "examples/reaxff/ZnOH2/param.qeq"
+                    "url": "reaxff/ZnOH2/param.qeq"
                 }
             ]
         }
